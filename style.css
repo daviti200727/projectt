@@ -18,12 +18,7 @@ body {
     margin: 0 auto;
 }
 
-.container img {
-     widt: 50%;
-    margin-lef: 472px;
-    
-    
-}
+
 .main-header {
     background: var(--dark-blue);
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
@@ -131,6 +126,10 @@ body {
     margin-bottom: 15px;
 
 }
+
+.navbar{
+    height: 100px;
+}
 .service-item h3 {
     color: var(--primary-yellow);
     margin-bottom: 10px;
@@ -165,25 +164,4 @@ body {
 }
 .contact-form textarea {
     min-height: 90px;
-}
-.contact-form button {
-    align-self: flex-end;
-}
-.main-footer {
-    background: var(--dark-blue);
-    color: var(--primary-yellow);
-    text-align: center;
-    padding: 18px 0;
-    border-radius: 0 0 18px 18px;
-    margin-top: 40px;
-    font-size: 1rem;
-}
-@media (max-width: 800px) {
-    .services-list, .gallery-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-    .container {
-        width: 98%;
-    }
 }
