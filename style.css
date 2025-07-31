@@ -1,4 +1,12 @@
-/* Sphere Constructions Wix Template Colors */
+*{
+    margin: 0;
+   
+    box-sizing: border-box;
+}
+body {
+  padding-top: 100px; 
+}
+
 :root {
     --primary-yellow: #efd22b;
     --dark-blue: #232f3e;
@@ -129,7 +137,66 @@ body {
 
 .navbar{
     height: 100px;
+    background-color: #1E2D3B !important; 
+    
 }
+
+.navbar-nav .nav-link {
+  margin-left: 24px;
+  margin-right: 3; 
+}
+.navbar-nav .nav-link:first-child {
+  margin-left: 3;
+}
+
+
+.navbar .nav-link,
+.navbar .navbar-text {
+  color: #fff !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: #EDAF33 !important;
+}
+.DidiLogo{
+    height: 48px;
+    width: 47px;
+}
+.navbar-brand{
+    margin-left: 10px;
+}
+
+.sphere {
+   font-weight: lighter;
+   margin: 0;
+}
+
+.navbar-logo-area {
+  background-color: #EDCD1F;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  width: 332px;
+  height: 100px;
+  
+  
+}
+.video{
+    object-fit: cover;
+    overflow: hidden;;
+    width: 100%;
+    height: 100vh;
+    
+
+    
+}
+
+
+
+
+
+
+
 .service-item h3 {
     color: var(--primary-yellow);
     margin-bottom: 10px;
@@ -165,3 +232,8 @@ body {
 .contact-form textarea {
     min-height: 90px;
 }
+
+
+
+
+
